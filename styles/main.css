@@ -5,8 +5,11 @@
 
 /* internal imports */
 
-@import "/styles/reset.css";
-@import "/styles/variables.css";
+/* @import "/styles/reset.css"; */
+/* @import "/styles/variables.css"; */
+/* @import "/styles/typography.css"; */
+
+@import "/styles/utilities/border-radius.css";
 
 @import "/styles/components/navbar.css";
 @import "/styles/components/sidebar.css";

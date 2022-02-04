@@ -1,1 +1,14 @@
 /* nav css */
+
+.header {
+    display: flex;
+    text-align: center;
+    padding: 1.5em 14em;
+}
+
+.header-nav {
+    display: flex;
+    text-align: center;
+    gap: 1.5rem;
+    margin-left: auto;
+}

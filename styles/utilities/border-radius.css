@@ -1,0 +1,15 @@
+.br-s{
+    border-radius: 5px;
+}
+
+.br-m{
+    border-radius: 10px;
+}
+
+.br-l{
+    border-radius: 15px;
+}
+
+.br-full{
+    border-radius: 999px;
+}
