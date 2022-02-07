@@ -1,15 +1,25 @@
 :root {
 
   /* font weight */
-  --fw-light: 300; 
-  --fw-regular: 400; 
-  --fw-semibold: 600; 
-  --fw-bold: 700; 
-  --fw-black: 900; 
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-black: 900;
 
   /* colors */
-  /* --clr-primary:
-  --clr-secondary:
-  --clr-action: */
 
+  --bg-color: #1A202C;
+  --heading-color: rgba(255, 255, 255, 0.92);
+  --span-heading: #4FD1C5;
+  --description-color: #A0AEC0;
+  --primary-btn-text: #1A202C;
+  --primary-btn-bg: #81E6D9;
+  --secondary-btn-bg: rgba(255, 255, 255, 0.08);
+
+  /* --black-color: #000000;
+  --text-color: #14213D;
+  --fill-color: #FCA311;
+  --site-color: #E5E5E5;
+  --no-color: #FFFFFF; */
 }

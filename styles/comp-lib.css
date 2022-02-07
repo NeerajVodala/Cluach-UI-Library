@@ -1,3 +1,67 @@
 /* Landing page styles come here */
 
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    width: 60%;
+}
+
+.main-heading {
+    font-size: 4rem;
+    font-weight: var(--fw-black);
+    line-height: 4rem;
+    color: var(--heading-color);
+}
+
+.main-description {
+    font-size: 1.25rem;
+    font-weight: var(--fw-semi-bold);
+    line-height: 2rem;
+    color: var(--description-color);
+    width: 75%;
+}
+
+.main-btns {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-size: 1.25rem;
+    font-weight: var(--fw-semibold);
+    padding: 1rem 2rem;
+    border: none;
+}
+
+.primary-btn {
+    color: var(--primary-btn-text);
+    background-color: var(--primary-btn-bg);
+}
+
+.secondary-btn {
+    color: var(--heading-color);
+    background-color: var(--secondary-btn-bg);
+}
+
+
+
+
+
+
+
+
+
 /* Docs page styles come here */

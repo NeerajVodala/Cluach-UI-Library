@@ -5,9 +5,8 @@
 
 /* internal imports */
 
-/* @import "/styles/reset.css"; */
-/* @import "/styles/variables.css"; */
-/* @import "/styles/typography.css"; */
+@import "/styles/variables.css";
+@import "/styles/typography.css";
 
 @import "/styles/utilities/border-radius.css";
 
@@ -34,4 +33,5 @@
 body {
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
+  background-color: var(--bg-color);
 }
