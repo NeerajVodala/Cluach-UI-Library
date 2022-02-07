@@ -4,8 +4,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 10rem;
+    position: sticky;
+    top: 0;
+    padding: 1.5rem 10rem;
+    background-color: var(--bg-color);
     color: var(--description-color);
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--heading-color);
+}
+
+.header-logo h2 {
+    font-weight: var(--fw-regular);
 }
 
 .header-nav {
