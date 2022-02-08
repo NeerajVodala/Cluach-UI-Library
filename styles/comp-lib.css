@@ -2,11 +2,7 @@
 
 /* lp - landing page */
 .lp {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    min-height: 80vh;
 }
 
 .lp-container {
@@ -16,7 +12,8 @@
     justify-content: center;
     text-align: center;
     gap: 2rem;
-    width: clamp(23rem, 60%, 46rem)
+    margin: 5rem auto;
+    max-width: 720px;
 }
 
 .lp-heading {
@@ -31,8 +28,7 @@
     font-weight: var(--fw-semi-bold);
     line-height: 2rem;
     color: var(--description-color);
-    width: clamp(22rem, 75%, 44rem)
-
+    max-width: 75%;
 }
 
 .lp-btns {
