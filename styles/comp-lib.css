@@ -16,7 +16,7 @@
     justify-content: center;
     text-align: center;
     gap: 2rem;
-    width: 60%;
+    width: clamp(23rem, 60%, 46rem)
 }
 
 .lp-heading {
@@ -31,12 +31,14 @@
     font-weight: var(--fw-semi-bold);
     line-height: 2rem;
     color: var(--description-color);
-    width: 75%;
+    width: clamp(22rem, 75%, 44rem)
+
 }
 
 .lp-btns {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
