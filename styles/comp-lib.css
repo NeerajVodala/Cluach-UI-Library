@@ -1,6 +1,7 @@
 /* Landing page styles come here */
 
-.main {
+/* lp - landing page */
+.lp {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +9,7 @@
     min-height: 80vh;
 }
 
-.main-container {
+.lp-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,15 +19,14 @@
     width: 60%;
 }
 
-.main-heading {
+.lp-heading {
     font-size: 4rem;
     font-weight: var(--fw-black);
     line-height: 5rem;
     letter-spacing: -1px;
-    color: var(--heading-color);
 }
 
-.main-description {
+.lp-description {
     font-size: 1.25rem;
     font-weight: var(--fw-semi-bold);
     line-height: 2rem;
@@ -34,7 +34,7 @@
     width: 75%;
 }
 
-.main-btns {
+.lp-btns {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -53,12 +53,44 @@
 }
 
 .secondary-btn {
-    color: var(--heading-color);
+    color: var(--text-color);
     background-color: var(--secondary-btn-bg);
 }
 
+
 /* Docs page styles come here */
 
-.container {
+/* dp - docs page */
+.dp {
     display: flex;
+    color: var(--text-color);
+}
+
+.dp-left-aside {
+    flex-basis: 15%;
+    padding: 0 1rem;
+}
+
+.dp-main {
+    flex-basis: 65%;
+    padding: 0 1rem;
+}
+
+.dp-right-aside {
+    flex-basis: 20%;
+}
+
+.nav-link {
+    display: block;
+    margin: 0.25rem;
+    padding: 0.75rem 1rem;
+}
+
+.nav-link:hover {
+    background-color: var(--secondary-btn-bg);
+}
+
+.active {
+    background-color: var(--secondary-btn-bg);
+    font-weight: var(--fw-semibold);
 }
