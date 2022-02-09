@@ -19,16 +19,16 @@
 .lp-heading {
     font-size: 4rem;
     font-weight: var(--fw-black);
-    line-height: 5rem;
+    line-height: 4rem;
     letter-spacing: -1px;
 }
 
 .lp-description {
     font-size: 1.25rem;
-    font-weight: var(--fw-semi-bold);
     line-height: 2rem;
+    font-weight: var(--fw-semi-bold);
     color: var(--description-color);
-    max-width: 75%;
+    max-width: 80%;
 }
 
 .lp-btns {
