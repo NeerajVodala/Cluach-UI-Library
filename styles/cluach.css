@@ -61,6 +61,7 @@
 /* dp - docs page */
 .dp {
     display: flex;
+    margin-top: 2rem;
     color: var(--text-color);
 }
 
@@ -71,11 +72,13 @@
 
 .dp-main {
     flex-basis: 65%;
-    padding: 0 1rem;
+    padding: 0rem 2rem;
 }
 
 .dp-right-aside {
     flex-basis: 20%;
+    padding: 0rem 1rem;
+    color: var(--description-color);
 }
 
 .nav-link {
@@ -91,4 +94,18 @@
 .active {
     background-color: var(--secondary-btn-bg);
     font-weight: var(--fw-semibold);
+}
+
+.nav-heading-right {
+    font-size: small;
+    font-weight: var(--fw-semibold);
+}
+
+.dp-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    border: 1px solid var(--border-color);
 }
