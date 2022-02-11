@@ -17,4 +17,8 @@
   --secondary-btn-bg: rgba(255, 255, 255, 0.08);
   --text-color: rgba(255, 255, 255, 0.92);
   --border-color: rgba(255, 255, 255, 0.16);
+  --badge-green: #32CD32;
+  --badge-grey: #808080;
+  --badge-red: #ff1919;
+  --badge-amber: #FFBF00;
 }

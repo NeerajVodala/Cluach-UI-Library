@@ -1,0 +1,51 @@
+/* badge css */
+.badge-container {
+    position: relative;
+}
+
+.badge-status {
+    position: absolute;
+    bottom: 22px;
+    right: 22px;
+    min-height: 0.75rem;
+    min-width: 0.75rem;
+    border: 1px solid var(--text-color);
+}
+
+.status-green {
+    background-color: var(--badge-green);
+}
+
+.status-grey {
+    background-color: var(--badge-grey);
+}
+
+.status-red {
+    background-color: var(--badge-red);
+}
+
+.icon {
+    margin: 1.5rem;
+    font-size: 2rem;
+    color: var(--span-heading);
+}
+
+.badge-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 14px;
+    right: 14px;
+
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    padding: 0.25rem;
+
+    color: var(--bg-color);
+    background-color: var(--badge-amber);
+
+    font-size: 0.75rem;
+    font-weight: var(--fw-semibold);
+}

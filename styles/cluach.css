@@ -61,23 +61,23 @@
 /* dp - docs page */
 .dp {
     display: flex;
-    margin-top: 2rem;
+    margin: 2rem 0;
     color: var(--text-color);
 }
 
 .dp-left-aside {
-    flex-basis: 15%;
+    flex-basis: 20%;
     padding: 0 1rem;
 }
 
 .dp-main {
-    flex-basis: 65%;
-    padding: 0rem 2rem;
+    flex-basis: 60%;
+    padding: 0 2rem;
 }
 
 .dp-right-aside {
     flex-basis: 20%;
-    padding: 0rem 1rem;
+    padding: 0 1rem;
     color: var(--description-color);
 }
 
@@ -96,9 +96,9 @@
     font-weight: var(--fw-semibold);
 }
 
-.nav-heading-right {
+.nav-right {
     font-size: small;
-    font-weight: var(--fw-semibold);
+    font-weight: var(--fw-bold);
 }
 
 .dp-component {
@@ -106,10 +106,18 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    margin: 1rem 0rem;
+    margin: 1rem 0;
     border: 1px solid var(--border-color);
 }
 
-.main-section {
-    margin: 1rem 0rem;
+.dp-section {
+    padding-top: 4rem;
+}
+
+.code-snippet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    background-color: var(--secondary-btn-bg);
 }
