@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Button - Cluach UI</title>
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/cluach.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="/index.html">
+            <div class="header-logo">
+                <i class="fas fa-cogs fa-2x"></i>
+                <h2>cluach</h2>
+            </div>
+        </a>
+
+        <div class="header-nav">
+            <a href="https://github.com/NeerajVodala/component-library" target="_blank"><i
+                    class="fab fa-github fa-lg"></i></a>
+
+            <a href="#" target="_blank"><i class="fab fa-discord fa-lg"></i></a>
+
+            <a href="https://twitter.com/NeerajVodala21" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+
+            <a href="#"><i class="fas fa-sun fa-lg"></i></a>
+
+            <a href="#" class="btn secondary-btn br-s" id="header-btn">Feedback</a>
+
+        </div>
+    </header>
+
+    <!-- dp - docs page -->
+    <div class="dp">
+
+        <aside class="dp-left-aside">
+
+            <nav class="nav-left">
+
+                <div>
+                    <h4 class="nav-heading">Getting Started</h4>
+                    <a href="/docs/getting-started.html" class="nav-link br-s">Installation</a>
+                </div>
+
+                <div>
+                    <h4 class="nav-heading">Components</h4>
+                    <ul>
+                        <li>
+                            <a href="/docs/components/alert.html" class="nav-link br-s">Alert</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/avatar.html" class="nav-link br-s">Avatar</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/badge.html" class="nav-link br-s">Badge</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/button.html" class="nav-link active br-s">Button</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/card.html" class="nav-link br-s">Card</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/image.html" class="nav-link br-s">Image</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/input.html" class="nav-link br-s">Input</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </aside>
+
+        <main class="dp-main">
+
+            <section id="docs-avatar" class="dp-section">
+
+                <h2>Avatar</h2>
+                <p>The Avatar component is used to represent a user, and displays the profile picture or initials.</p>
+
+            </section>
+
+            <section id="docs-avatar-sizes" class="dp-section">
+
+                <h2>Avatar Sizes</h2>
+                <p>The Avatar component comes in 3 sizes.</p>
+
+            </section>
+
+            <section id="docs-avatar-circle" class="dp-section">
+
+                <h3>Circle Avatar</h3>
+
+                <div class="dp-component br-s">
+
+                    <img class="avatar-s br-full" src="/assets/images/elyse.png" alt="avatar.png">
+                    <img class="avatar-m br-full" src="/assets/images/kristy.png" alt="avatar.png">
+                    <img class="avatar-l br-full" src="/assets/images/matthew.png" alt="avatar.png">
+
+                </div>
+
+                <div class="code-snippet">
+                    <pre>
+                        <code class="html">
+
+&lt;img class="avatar-s br-full" src="/url-of-the-image.png" alt="avatar.png"&gt;
+
+&lt;img class="avatar-m br-full" src="/url-of-the-image.png" alt="avatar.png"&gt;
+
+&lt;img class="avatar-l br-full" src="/url-of-the-image.png" alt="avatar.png"&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+            <section id="docs-avatar-square" class="dp-section">
+
+                <h3>Square Avatar</h3>
+
+                <div class="dp-component br-s">
+
+                    <img class="avatar-s br-s" src="/assets/images/elyse.png" alt="avatar.png">
+                    <img class="avatar-m br-s" src="/assets/images/kristy.png" alt="avatar.png">
+                    <img class="avatar-l br-s" src="/assets/images/matthew.png" alt="avatar.png">
+
+                </div>
+
+            </section>
+
+            <div class="code-snippet">
+                <pre>
+                    <code class="html">
+                        
+&lt;img class="avatar-s br-s" src="/assets/images/elyse.png" alt="avatar.png"&gt;
+
+&lt;img class="avatar-m br-s" src="/assets/images/kristy.png" alt="avatar.png"&gt;
+
+&lt;img class="avatar-l br-s" src="/assets/images/matthew.png" alt="avatar.png"&gt;
+                    </code>
+                </pre>
+            </div>
+
+            <section id="docs-avatar-text" class="dp-section">
+
+                <h3 id="text-avatar">Text Avatar</h3>
+
+                <div class="dp-component br-s">
+
+                    <div class="avatar-s avatar-text br-full">C</div>
+                    <div class="avatar-m avatar-text br-full">C</div>
+                    <div class="avatar-l avatar-text br-full">C</div>
+
+                </div>
+
+                <div class="code-snippet">
+                    <pre>
+                        <code class="html">
+                            
+&lt;div class="avatar-s avatar-text br-full"&gt;C&lt;/div&gt;
+    
+&lt;div class="avatar-m avatar-text br-full"&gt;C&lt;/div&gt;
+    
+&lt;div class="avatar-l avatar-text br-full"&gt;C&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="dp-component br-s">
+
+                    <div class="avatar-s avatar-text br-s">C</div>
+                    <div class="avatar-m avatar-text br-s">C</div>
+                    <div class="avatar-l avatar-text br-s">C</div>
+
+                </div>
+
+                <div class="code-snippet">
+                    <pre>
+                        <code class="html">
+                            
+&lt;div class="avatar-s avatar-text br-s"&gt;C&lt;/div&gt;
+    
+&lt;div class="avatar-m avatar-text br-s"&gt;C&lt;/div&gt;
+    
+&lt;div class="avatar-l avatar-text br-s"&gt;C&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+            </section>
+
+        </main>
+
+        <aside class="dp-right-aside">
+
+            <p class="nav-right">ON THIS PAGE</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#docs-avatar" class="nav-link nav-right br-s">Avatar</a>
+                    </li>
+                    <li>
+                        <a href="#docs-avatar-sizes" class="nav-link nav-right br-s">Avatar Sizes</a>
+                    </li>
+                    <li>
+                        <a href="#docs-avatar-circle" class="nav-link nav-right br-s">Circle Avatar</a>
+                    </li>
+                    <li>
+                        <a href="#docs-avatar-square" class="nav-link nav-right br-s">Square Avatar</a>
+                    </li>
+                    <li>
+                        <a href="#docs-avatar-text" class="nav-link nav-right br-s">Text Avatar</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </aside>
+
+    </div>
+</body>
+
+</html>
