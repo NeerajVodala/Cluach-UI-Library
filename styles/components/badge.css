@@ -13,15 +13,15 @@
 }
 
 .status-green {
-    background-color: green;
+    background-color: var(--badge-green);
 }
 
 .status-grey {
-    background-color: grey;
+    background-color: var(--badge-grey);
 }
 
 .status-red {
-    background-color: red;
+    background-color: var(--badge-red);
 }
 
 .icon {
@@ -44,7 +44,7 @@
     padding: 0.25rem;
 
     color: var(--bg-color);
-    background-color: yellowgreen;
+    background-color: var(--badge-amber);
 
     font-size: 0.75rem;
     font-weight: var(--fw-semibold);
