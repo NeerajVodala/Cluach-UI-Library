@@ -96,9 +96,9 @@
     font-weight: var(--fw-semibold);
 }
 
-.nav-heading-right {
+.nav-right {
     font-size: small;
-    font-weight: var(--fw-semibold);
+    font-weight: var(--fw-bold);
 }
 
 .dp-component {
