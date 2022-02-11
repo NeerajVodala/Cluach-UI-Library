@@ -113,3 +113,11 @@
 .dp-section {
     padding-top: 4rem;
 }
+
+.code-snippet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    background-color: var(--secondary-btn-bg);
+}
