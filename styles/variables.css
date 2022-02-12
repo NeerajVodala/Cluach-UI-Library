@@ -21,4 +21,8 @@
   --badge-grey: #808080;
   --badge-red: #ff1919;
   --badge-amber: #FFBF00;
+  --error-color: #3f3742;
+  --success-color: #2e4042;
+  --warning-color: #3e3d3b;
+  --info-color: #2c3c4c;
 }

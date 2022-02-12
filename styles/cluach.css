@@ -31,26 +31,26 @@
     max-width: 80%;
 }
 
-.lp-btns {
+.lp-btn-section {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-.btn {
+.lp-btn {
     font-size: 1.25rem;
     font-weight: var(--fw-semibold);
     padding: 1rem 2rem;
     border: none;
 }
 
-.primary-btn {
+.lp-primary-btn {
     color: var(--primary-btn-text);
     background-color: var(--primary-btn-bg);
 }
 
-.secondary-btn {
+.lp-secondary-btn {
     color: var(--text-color);
     background-color: var(--secondary-btn-bg);
 }

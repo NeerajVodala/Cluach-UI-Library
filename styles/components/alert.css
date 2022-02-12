@@ -1,0 +1,32 @@
+/* alert css */
+.alert-container {
+    width: 100%;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 1.5rem;
+    margin: 1.5rem;
+
+    border-left: 4px solid var(--border-color);
+    font-weight: var(--fw-semibold);
+}
+
+.success {
+    background-color: var(--success-color);
+}
+
+.info {
+    background-color: var(--info-color);
+}
+
+.error {
+    background-color: var(--error-color);
+}
+
+.warning {
+    background-color: var(--warning-color);
+}
