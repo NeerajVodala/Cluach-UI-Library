@@ -1,12 +1,8 @@
 /* button sizes */
 .btn {
     font-weight: var(--fw-semibold);
-
     padding: 1em 2em;
     margin: 1rem;
-
-    outline: none;
-    border: none;
 }
 
 .btn-s {
@@ -57,3 +53,9 @@
 }
 
 /* button with icon */
+.btn-float {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
