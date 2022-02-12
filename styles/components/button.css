@@ -1,0 +1,59 @@
+/* button sizes */
+.btn {
+    font-weight: var(--fw-semibold);
+
+    padding: 1em 2em;
+    margin: 1rem;
+
+    outline: none;
+    border: none;
+}
+
+.btn-s {
+    font-size: 0.75rem;
+}
+
+.btn-m {
+    font-size: 1rem;
+}
+
+.btn-l {
+    font-size: 1.25rem;
+}
+
+/* button varients */
+.solid {
+    color: var(--primary-btn-text);
+    background-color: var(--primary-btn-bg);
+}
+
+.outline {
+    color: var(--text-color);
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+}
+
+.outline:hover {
+    background-color: var(--secondary-btn-bg);
+}
+
+.ghost {
+    color: var(--text-color);
+    background-color: transparent;
+}
+
+.ghost:hover {
+    background-color: var(--secondary-btn-bg);
+}
+
+.btn-link {
+    margin: 1rem;
+    color: var(--text-color);
+    background-color: transparent;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+/* button with icon */
