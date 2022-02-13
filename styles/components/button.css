@@ -52,6 +52,11 @@
     text-decoration: underline;
 }
 
+.btn-fill {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
 /* button with icon */
 .btn-float {
     display: flex;
