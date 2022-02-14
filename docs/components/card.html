@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Card - Cluach UI</title>
+
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/cluach.css" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="/index.html">
+            <div class="header-logo">
+                <i class="fas fa-cogs fa-2x"></i>
+                <h2>cluach</h2>
+            </div>
+        </a>
+
+        <div class="header-nav">
+            <a href="https://github.com/NeerajVodala/component-library" target="_blank"><i
+                    class="fab fa-github fa-lg"></i></a>
+
+            <a href="#" target="_blank"><i class="fab fa-discord fa-lg"></i></a>
+
+            <a href="https://twitter.com/NeerajVodala21" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+
+            <a href="#"><i class="fas fa-sun fa-lg"></i></a>
+
+            <a href="#" class="lp-btn lp-secondary-btn br-s" id="header-btn">Feedback</a>
+        </div>
+    </header>
+
+    <!-- dp - docs page -->
+    <div class="dp">
+        <aside class="dp-left-aside">
+            <nav class="nav-left">
+                <div>
+                    <h4 class="nav-heading">Getting Started</h4>
+                    <a href="/docs/getting-started.html" class="nav-link br-s">Installation</a>
+                </div>
+
+                <div>
+                    <h4 class="nav-heading">Components</h4>
+                    <ul>
+                        <li>
+                            <a href="/docs/components/alert.html" class="nav-link br-s">Alert</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/avatar.html" class="nav-link br-s">Avatar</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/badge.html" class="nav-link br-s">Badge</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/button.html" class="nav-link br-s">Button</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/card.html" class="nav-link active br-s">Card</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/image.html" class="nav-link br-s">Image</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/input.html" class="nav-link br-s">Input</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <main class="dp-main">
+            <section id="docs-card" class="dp-section">
+                <h2>Card</h2>
+                <p>Cards contain content and actions about a single subject.</p>
+            </section>
+
+            <section id="docs-card-vertical" class="dp-section">
+                <h3>Vertical Card</h3>
+
+                <div class="dp-component br-s">
+                    <div class="card shadow-1">
+                        <div class="card-media">
+                            <img src="/assets/images/dog-pic.jpg" alt="card media" />
+                        </div>
+
+                        <div class="card-cross">
+                            <i class="fas fa-times-circle"></i>
+                        </div>
+
+                        <div class="card-badge">Badge</div>
+
+                        <div class="card-details">
+                            <div>
+                                <h2 class="card-title">Title of the card</h2>
+                                <h4 class="card-subtitle">Subtitle of the card</h4>
+                            </div>
+
+                            <div class="card-text">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="btn btn-m solid br-s">Action 1</button>
+                            <button class="btn btn-m outline br-s">Action 2</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="docs-card-textover" class="dp-section">
+                <h3>Vertical Card with text overlay</h3>
+
+                <div class="dp-component br-s">
+                    <div class="card shadow-1">
+                        <div class="card-media">
+                            <img src="/assets/images/dog-pic.jpg" alt="card media" />
+                        </div>
+
+                        <div class="card-cross">
+                            <i class="fas fa-times-circle"></i>
+                        </div>
+
+                        <div class="card-badge">Badge</div>
+
+                        <div class="card-details">
+                            <div class="card-title-section">
+                                <h2 class="card-title">Title of the card</h2>
+                                <h4 class="card-subtitle">Subtitle of the card</h4>
+                            </div>
+
+                            <div class="card-text">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="btn btn-m solid br-s">Action 1</button>
+                            <button class="btn btn-m outline br-s">Action 2</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="docs-card-textonly" class="dp-section">
+                <h3>Text only Card</h3>
+
+                <div class="dp-component br-s">
+                    <div class="card shadow-1">
+                        <div class="card-cross">
+                            <i class="fas fa-times-circle"></i>
+                        </div>
+
+                        <div class="card-details">
+                            <div>
+                                <h2 class="card-title">Title of the card</h2>
+                                <h4 class="card-subtitle">Subtitle of the card</h4>
+                            </div>
+
+                            <div class="card-text">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry. Lorem Ipsum has been the industry.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card-actions">
+                            <button class="btn btn-m solid br-s">Action 1</button>
+                            <button class="btn btn-m outline br-s">Action 2</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="code-snippet br-s">
+                <pre>
+                    <code class="html">
+
+&lt;div class="card shadow-1"&gt;
+
+    &lt;div class="card-media"&gt;
+        &lt;img src="/image.jpg" alt="card media"&gt;
+    &lt;/div&gt;
+        
+    &lt;div class="card-cross"&gt;
+        &lt;i class="fas fa-times-circle"&gt;&lt;/i&gt;
+    &lt;/div&gt;
+        
+    &lt;div class="card-badge"&gt;
+        Badge
+    &lt;/div&gt;
+        
+    &lt;div class="card-details"&gt;      
+        &lt;div&gt;
+            &lt;h2 class="card-title"&gt;Title of the card&lt;/h2&gt;
+            &lt;h4 class="card-subtitle"&gt;Subtitle of the card&lt;/h4&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="card-text"&gt;
+            &lt;p&gt;
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry.
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+        
+    &lt;div class="card-actions"&gt;
+        &lt;button class="btn btn-m solid br-s"&gt;Action 1&lt;/button&gt;
+        &lt;button class="btn btn-m outline br-s"&gt;Action 2&lt;/button&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;        
+                    </code>
+                </pre>
+            </div>
+
+            <section id="docs-card-horizontal" class="dp-section">
+                <h3>Horizontal Card</h3>
+
+                <div class="dp-component br-s">
+                    <div class="card card-horizontal shadow-1">
+                        <div class="card-media">
+                            <img src="/assets/images/dog-pic.jpg" alt="card media" />
+                        </div>
+
+                        <div class="card-cross">
+                            <i class="fas fa-times-circle"></i>
+                        </div>
+
+                        <div class="card-badge">Badge</div>
+
+                        <div class="card-horizontal-nonmedia">
+                            <div class="card-details">
+                                <div>
+                                    <h2 class="card-title">Title of the card</h2>
+                                    <h4 class="card-subtitle">Subtitle of the card</h4>
+                                </div>
+
+                                <div class="card-text">
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been the industry.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card-actions">
+                                <button class="btn btn-fill btn-m solid br-s">Action 1</button>
+                                <button class="btn btn-fill btn-m outline br-s">Action 2</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-snippet br-s">
+                    <pre>
+                        <code class="html">
+
+&lt;div class="card card-horizontal shadow-1"&gt;
+
+    &lt;div class="card-media"&gt;
+        &lt;img src="/image.jpg" alt="card media" /&gt;
+    &lt;/div&gt;
+
+        &lt;div class="card-cross"&gt;
+            &lt;i class="fas fa-times-circle"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+
+        &lt;div class="card-badge"&gt;Badge&lt;/div&gt;
+
+    &lt;div class="card-horizontal-nonmedia"&gt;
+    
+        &lt;div class="card-details"&gt;
+
+            &lt;div&gt;
+                &lt;h2 class="card-title"&gt;Title of the card&lt;/h2&gt;
+                &lt;h4 class="card-subtitle"&gt;Subtitle of the card&lt;/h4&gt;
+            &lt;/div&gt;
+
+            &lt;div class="card-text"&gt;
+                &lt;p&gt;
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry.
+                &lt;/p&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class="card-actions"&gt;
+            &lt;button class="btn btn-fill btn-m solid br-s"&gt;Action 1&lt;/button&gt;
+            &lt;button class="btn btn-fill btn-m outline br-s"&gt;Action 2&lt;/button&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/div&gt;    
+                        </code>
+                    </pre>
+                </div>
+            </section>
+        </main>
+
+        <aside class="dp-right-aside">
+            <p class="nav-right">ON THIS PAGE</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#docs-card" class="nav-link nav-right br-s">Card</a>
+                    </li>
+                    <li>
+                        <a href="#docs-card-vertical" class="nav-link nav-right br-s">Vertical Card</a>
+                    </li>
+                    <li>
+                        <a href="#docs-card-textover" class="nav-link nav-right br-s">Vertical Card with text
+                            overlay</a>
+                    </li>
+                    <li>
+                        <a href="#docs-card-textonly" class="nav-link nav-right br-s">Text only Card</a>
+                    </li>
+                    <li>
+                        <a href="#docs-card-horizontal" class="nav-link nav-right br-s">Horizontal Card</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+</body>
+
+</html>

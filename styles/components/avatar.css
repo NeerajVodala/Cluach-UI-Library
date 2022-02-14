@@ -2,21 +2,18 @@
 .avatar-s {
     width: 2rem;
     height: 2rem;
-    margin: 1rem;
     font-size: 0.75rem;
 }
 
 .avatar-m {
     width: 3rem;
     height: 3rem;
-    margin: 1rem;
     font-size: 1rem;
 }
 
 .avatar-l {
     width: 4rem;
     height: 4rem;
-    margin: 1rem;
     font-size: 1.25rem;
 }
 

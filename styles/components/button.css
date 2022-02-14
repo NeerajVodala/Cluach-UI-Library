@@ -2,7 +2,6 @@
 .btn {
     font-weight: var(--fw-semibold);
     padding: 1em 2em;
-    margin: 1rem;
 }
 
 .btn-s {
@@ -50,6 +49,10 @@
 
 .btn-link:hover {
     text-decoration: underline;
+}
+
+.btn-fill {
+    width: 90%;
 }
 
 /* button with icon */
