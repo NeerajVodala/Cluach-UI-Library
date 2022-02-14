@@ -10,6 +10,7 @@
 @import "/styles/typography.css";
 
 @import "/styles/utilities/border-radius.css";
+@import "/styles/utilities/box-shadow.css";
 
 @import "/styles/components/navbar.css";
 @import "/styles/components/sidebar.css";
