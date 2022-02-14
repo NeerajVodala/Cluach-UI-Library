@@ -7,6 +7,7 @@
 .card-media img {
     opacity: 70%;
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -57,4 +58,14 @@
 .card-title-section {
     position: absolute;
     top: 11rem;
+}
+
+/* horizontal card css */
+.card-horizontal {
+    display: flex;
+    max-width: 800px;
+}
+
+.card-horizontal-nonmedia .card-actions {
+    gap: 1rem;
 }
