@@ -2,7 +2,6 @@
 .btn {
     font-weight: var(--fw-semibold);
     padding: 1em 2em;
-    margin: 1rem;
 }
 
 .btn-s {
