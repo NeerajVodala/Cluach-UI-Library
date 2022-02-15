@@ -1,0 +1,9 @@
+.form-login {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.forgot {
+    margin-left: auto;
+}
