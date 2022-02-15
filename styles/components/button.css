@@ -49,6 +49,7 @@
 .btn-link {
     color: var(--text-primary);
     background-color: transparent;
+    font-weight: var(--fw-semibold);
 }
 
 .btn-link:hover {
