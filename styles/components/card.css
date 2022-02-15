@@ -1,6 +1,6 @@
 .card {
     position: relative;
-    background-color: var(--secondary-btn-bg);
+    background-color: var(--bg-secondary);
     max-width: 350px;
 }
 
@@ -22,7 +22,7 @@
     position: absolute;
     top: 1rem;
     left: -0.125rem;
-    background-color: var(--bg-color);
+    background-color: var(--bg-primary);
     padding: 0.5rem;
     font-size: 0.75rem;
     font-weight: var(--fw-semibold);

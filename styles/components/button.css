@@ -18,18 +18,23 @@
 
 /* button varients */
 .solid {
-    color: var(--primary-btn-text);
-    background-color: var(--primary-btn-bg);
+    color: var(--bg-primary);
+    background-color: var(--btn-bg-1);
+    border: 2px solid var(--btn-bg-1);
+}
+
+.solid:hover {
+    background-color: var(--span-2);
 }
 
 .outline {
-    color: var(--text-color);
+    color: var(--text-primary);
     background-color: transparent;
-    border: 1px solid var(--text-color);
+    border: 2px solid var(--text-primary);
 }
 
 .outline:hover {
-    background-color: var(--secondary-btn-bg);
+    background-color: var(--bg-secondary);
 }
 
 .ghost {
@@ -38,12 +43,11 @@
 }
 
 .ghost:hover {
-    background-color: var(--secondary-btn-bg);
+    background-color: var(--bg-secondary);
 }
 
 .btn-link {
-    margin: 1rem;
-    color: var(--text-color);
+    color: var(--text-primary);
     background-color: transparent;
 }
 
@@ -61,4 +65,8 @@
     justify-content: center;
     align-items: center;
     padding: 1em;
+}
+
+.btn-float:hover {
+    background-color: var(--span-2);
 }

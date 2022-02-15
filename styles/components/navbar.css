@@ -7,8 +7,8 @@
     position: sticky;
     top: 0;
     padding: 0.25rem 12rem;
-    background-color: var(--bg-color);
-    color: var(--description-color);
+    color: var(--text-secondary);
+    background-color: var(--bg-primary);
 }
 
 .header-logo {
@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    color: var(--text-color);
+    color: var(--text-primary);
 }
 
 .header-logo h2 {

@@ -35,8 +35,8 @@
 body {
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 li {

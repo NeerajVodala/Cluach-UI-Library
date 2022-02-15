@@ -7,19 +7,22 @@
   --fw-bold: 700;
   --fw-black: 900;
 
-  /* colors */
-  --bg-color: #1A202C;
-  --span-heading: #4FD1C5;
-  --description-color: #A0AEC0;
-  --primary-btn-text: #1A202C;
-  --primary-btn-bg: #81E6D9;
-  --secondary-btn-bg: rgba(255, 255, 255, 0.08);
-  --text-color: rgba(255, 255, 255, 0.92);
-  --border-color: rgba(255, 255, 255, 0.16);
+  /* Library colors */
+  /* basic */
+  --bg-primary: #1A202C;
+  --bg-secondary: rgba(255, 255, 255, 0.08);
+  --text-primary: rgba(255, 255, 255, 0.92);
+  --text-secondary: #A0AEC0;
+  --btn-bg-1: #81E6D9;
+  --btn-bg-2: rgba(255, 255, 255, 0.08);
+  --span-1: rgba(255, 255, 255, 0.16);
+  --span-2: #4FD1C5;
+  /* badges */
   --badge-green: #32CD32;
   --badge-grey: #808080;
   --badge-red: #ff1919;
   --badge-amber: #FFBF00;
+  /* alerts */
   --error-color: #3f3742;
   --success-color: #2e4042;
   --warning-color: #3e3d3b;
