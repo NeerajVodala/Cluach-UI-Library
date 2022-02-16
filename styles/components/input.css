@@ -1,0 +1,50 @@
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.input {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    outline: none;
+    border: 1px solid var(--bg-secondary);
+}
+
+.input:focus {
+    outline: 2px solid var(--bg-secondary);
+}
+
+/* input validation */
+.input-success {
+    border: 1px solid var(--success-color);
+}
+
+.input-success:focus {
+    outline: 2px solid var(--success-color);
+}
+
+.input-warning {
+    border: 1px solid var(--warning-color);
+}
+
+.input-warning:focus {
+    outline: 2px solid var(--warning-color);
+}
+
+.input-error {
+    border: 1px solid var(--error-color);
+}
+
+.input-error:focus {
+    outline: 2px solid var(--error-color);
+}
