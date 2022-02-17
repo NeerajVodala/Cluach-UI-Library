@@ -24,7 +24,7 @@
 }
 
 .solid:hover {
-    background-color: var(--span-2);
+    background-color: var(--span-1);
 }
 
 .outline {
@@ -69,5 +69,5 @@
 }
 
 .btn-float:hover {
-    background-color: var(--span-2);
+    background-color: var(--span-1);
 }
