@@ -1,0 +1,16 @@
+.toast-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.toast {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    width: 20rem;
+    padding: 1rem;
+    color: var(--bg-primary);
+    font-weight: var(--fw-semibold);
+}
