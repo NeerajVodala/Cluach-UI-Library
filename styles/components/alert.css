@@ -1,16 +1,20 @@
 /* alert css */
 .alert-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
 .alert {
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 1.5rem;
-    margin: 1.5rem;
-    border-left: 4px solid var(--span-1);
+    padding: 1rem;
     font-weight: var(--fw-semibold);
+    color: var(--bg-primary);
 }
 
 .success {
