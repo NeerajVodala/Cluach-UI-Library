@@ -70,3 +70,11 @@ p {
 .text-right {
     text-align: right;
 }
+
+.text-span-1 {
+    color: var(--span-1);
+}
+
+.text-span-2 {
+    color: var(--span-2);
+}
