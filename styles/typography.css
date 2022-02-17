@@ -71,6 +71,7 @@ p {
     text-align: right;
 }
 
+/* colored text */
 .text-span-1 {
     color: var(--span-1);
 }
