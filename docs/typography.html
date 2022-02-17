@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Button - Cluach UI</title>
+    <title>Typography - Cluach UI</title>
 
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/cluach.css">
@@ -37,7 +37,6 @@
         </div>
     </header>
 
-    <!-- dp - docs page -->
     <div class="dp">
 
         <aside class="dp-left-aside">
@@ -51,7 +50,7 @@
                             <a href="/docs/getting-started.html" class="nav-link br-s">Installation</a>
                         </li>
                         <li>
-                            <a href="/docs/typography.html" class="nav-link br-s">Typography</a>
+                            <a href="/docs/typography.html" class="nav-link active br-s">Typography</a>
                         </li>
                     </ul>
                 </div>
@@ -69,7 +68,7 @@
                             <a href="/docs/components/badge.html" class="nav-link br-s">Badge</a>
                         </li>
                         <li>
-                            <a href="/docs/components/button.html" class="nav-link active br-s">Button</a>
+                            <a href="/docs/components/button.html" class="nav-link br-s">Button</a>
                         </li>
                         <li>
                             <a href="/docs/components/card.html" class="nav-link br-s">Card</a>
@@ -94,123 +93,124 @@
         </aside>
 
         <main class="dp-main">
-
-            <section id="docs-button" class="dp-section">
-
-                <h2>Button</h2>
-                <p>The Button component is used to trigger an action or event.</p>
-
+            <section id="docs-typography" class="dp-section">
+                <h2>Typography</h2>
+                <p>Use typography to present your design and content as clearly and efficiently as possible.</p>
             </section>
 
-            <section id="docs-button-sizes" class="dp-section">
-
-                <h3>Button Sizes</h3>
+            <section id="docs-typography-heading" class="dp-section">
+                <h3>Headings</h3>
 
                 <div class="dp-component br-s">
-
-                    <button class="btn solid btn-s br-s">Button</button>
-                    <button class="btn solid btn-m br-s">Button</button>
-                    <button class="btn solid btn-l br-s">Button</button>
-
+                    <div>
+                        <h1>h1. Cluach UI Heading</h1>
+                        <h2>h2. Cluach UI Heading</h2>
+                        <h3>h3. Cluach UI Heading</h3>
+                        <h4>h4. Cluach UI Heading</h4>
+                        <h5>h5. Cluach UI Heading</h5>
+                        <h6>h6. Cluach UI Heading</h6>
+                    </div>
                 </div>
 
                 <div class="code-snippet br-s">
                     <pre>
                         <code class="html">
 
-&lt;button class="btn solid btn-s br-s"&gt;Button&lt;/button&gt;
+&lt;h1&gt;h1. Cluach UI Heading&lt;/h1&gt;
 
-&lt;button class="btn solid btn-m br-s"&gt;Button&lt;/button&gt;
+&lt;h2&gt;h2. Cluach UI Heading&lt;/h2&gt;
 
-&lt;button class="btn solid btn-l br-s"&gt;Button&lt;/button&gt;
+&lt;h3&gt;h3. Cluach UI Heading&lt;/h3&gt;
+
+&lt;h4&gt;h4. Cluach UI Heading&lt;/h4&gt;
+
+&lt;h5&gt;h5. Cluach UI Heading&lt;/h5&gt;
+
+&lt;h6&gt;h6. Cluach UI Heading&lt;/h6&gt;
                         </code>
                     </pre>
                 </div>
-
             </section>
 
-            <section id="docs-button-variants" class="dp-section">
-
-                <h3>Button Variants</h3>
-
-                <div class="dp-component br-s">
-
-                    <button class="btn solid btn-m br-s">Button</button>
-                    <button class="btn outline btn-m br-s">Button</button>
-                    <button class="btn ghost btn-m br-s">Button</button>
-                    <a href="#docs-button-varients" class="btn-link btn-m br-s">Link</a>
-
-                </div>
-
-                <div class="code-snippet br-s">
-                    <pre>
-                        <code class="html">
-    
-&lt;button class="btn solid btn-m br-s"&gt;Button&lt;/button&gt;
-
-&lt;button class="btn outline btn-m br-s"&gt;Button&lt;/button&gt;
-
-&lt;button class="btn ghost btn-m br-s"&gt;Button&lt;/button&gt;
-
-&lt;a href="target-link" class="btn-link btn-m br-s"&gt;Link&lt;/a&gt;
-                        </code>
-                    </pre>
-                </div>
-
-            </section>
-
-            <section id="docs-button-icon" class="dp-section">
-
-                <h3>Button with Icon</h3>
+            <section id="docs-typography-weight" class="dp-section">
+                <h3>Text Weight</h3>
 
                 <div class="dp-component br-s">
-
-                    <button class="btn solid btn-m br-s">Get Started <i class="fas fa-arrow-right"></i></button>
-
-                    <button class="btn outline btn-m br-s"><i class="fab fa-github"></i> GitHub</button>
-
+                    <div>
+                        <p class="text-lighter">Lighter text</p>
+                        <p class="text-light">Light text</p>
+                        <p class="text-regular">Regular text</p>
+                        <p class="text-semibold">SemiBold text</p>
+                        <p class="text-bold">Bold text</p>
+                        <p class="text-black">Black text</p>
+                    </div>
                 </div>
 
                 <div class="code-snippet br-s">
                     <pre>
                         <code class="html">
 
-&lt;button class="btn solid btn-m br-s"&gt;Get Started &lt;svg&gt;&lt;/svg&gt;&lt;/button&gt;
+&lt;p class="text-lighter"&gt;Lighter text&lt;/p&gt;
 
-&lt;button class="btn outline btn-m br-s"&gt;&lt;svg&gt;&lt;/svg&gt; GitHub&lt;/button&gt;
+&lt;p class="text-light"&gt;Light text&lt;/p&gt;
+
+&lt;p class="text-regular"&gt;Regular text&lt;/p&gt;
+
+&lt;p class="text-semibold"&gt;SemiBold text&lt;/p&gt;
+
+&lt;p class="text-bold"&gt;Bold text&lt;/p&gt;
+
+&lt;p class="text-black"&gt;Black text&lt;/p&gt;
                         </code>
                     </pre>
                 </div>
-
             </section>
 
-            <section id="docs-button-float" class="dp-section">
-
-                <h3>Floating Action Button</h3>
+            <section id="docs-typography-alignment" class="dp-section">
+                <h3>Text Alignment</h3>
 
                 <div class="dp-component br-s">
-
-                    <a href="#">
-                    <button class="btn btn-float solid btn-l br-full"><i class="fas fa-arrow-up"></i></button>
-                    </a>
-
+                    <div class="align-section">
+                        <p class="text-left">Left Aligned Text</p>
+                        <p class="text-center">Center Aligned Text</p>
+                        <p class="text-right">Right Aligned Text</p>
+                    </div>
                 </div>
 
                 <div class="code-snippet br-s">
                     <pre>
                         <code class="html">
 
-&lt;a href="#"&gt;
-    &lt;button class="btn btn-float solid btn-l br-full"&gt;
-        &lt;i class="fas fa-arrow-up"&gt;&lt;/i>
-    &lt;/button&gt;
-&lt;/a&gt;
+&lt;p class="text-left"&gt;Left Aligned Text&lt;/p&gt;
+
+&lt;p class="text-center"&gt;Center Aligned Text&lt;/p&gt;
+
+&lt;p class="text-right"&gt;Right Aligned Text&lt;/p&gt;
                         </code>
                     </pre>
                 </div>
-
             </section>
 
+            <section id="docs-typography-color" class="dp-section">
+                <h3>Text Colors</h3>
+
+                <div class="dp-component br-s">
+                    <span>Default Text</span>
+                    <span class="text-span-1">Span Text 1</span>
+                    <span class="text-span-2">Span Text 2</span>
+                </div>
+
+                <div class="code-snippet br-s">
+                    <pre>
+                        <code class="html">
+
+&lt;span class="text-span-1">Span Text&lt;/span&gt;
+
+&lt;span class="text-span-2">Span Text&lt;/span&gt;
+                        </code>
+                    </pre>
+                </div>
+            </section>
         </main>
 
         <aside class="dp-right-aside">
@@ -219,16 +219,19 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#docs-button" class="nav-link nav-right br-s">Button</a>
+                        <a href="#docs-typography" class="nav-link nav-right br-s">Typography</a>
                     </li>
                     <li>
-                        <a href="#docs-button-sizes" class="nav-link nav-right br-s">Button Sizes</a>
+                        <a href="#docs-typography-heading" class="nav-link nav-right br-s">Headings</a>
                     </li>
                     <li>
-                        <a href="#docs-button-variants" class="nav-link nav-right br-s">Button Variants</a>
+                        <a href="#docs-typography-weight" class="nav-link nav-right br-s">Text Weight</a>
                     </li>
                     <li>
-                        <a href="#docs-button-icon" class="nav-link nav-right br-s">Button with Icon</a>
+                        <a href="#docs-typography-alignment" class="nav-link nav-right br-s">Text Alignment</a>
+                    </li>
+                    <li>
+                        <a href="#docs-typography-color" class="nav-link nav-right br-s">Text Color</a>
                     </li>
                 </ul>
             </nav>

@@ -8,10 +8,8 @@
 
 @import "/styles/variables.css";
 @import "/styles/typography.css";
-
 @import "/styles/utilities/border-radius.css";
 @import "/styles/utilities/box-shadow.css";
-
 @import "/styles/components/navbar.css";
 @import "/styles/components/sidebar.css";
 @import "/styles/components/alert.css";
@@ -21,6 +19,7 @@
 @import "/styles/components/card.css";
 @import "/styles/components/image.css";
 @import "/styles/components/input.css";
+@import "/styles/components/list.css";
 @import "/styles/components/toast.css";
 
 /* project initials */

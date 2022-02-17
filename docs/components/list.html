@@ -2,14 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Toast - Cluach UI</title>
+    <title>List - Cluach UI</title>
 
-    <link rel="stylesheet" href="/styles/main.css" />
-    <link rel="stylesheet" href="/styles/cluach.css" />
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/cluach.css">
+
 </head>
 
 <body>
@@ -32,13 +33,16 @@
             <a href="#"><i class="fas fa-sun fa-lg"></i></a>
 
             <a href="#" class="lp-btn lp-secondary-btn br-s" id="header-btn">Feedback</a>
+
         </div>
     </header>
 
-    <!-- dp - docs page -->
     <div class="dp">
+
         <aside class="dp-left-aside">
+
             <nav class="nav-left">
+
                 <div>
                     <h4 class="nav-heading">Getting Started</h4>
                     <ul>
@@ -76,86 +80,104 @@
                             <a href="/docs/components/input.html" class="nav-link br-s">Input</a>
                         </li>
                         <li>
-                            <a href="/docs/components/list.html" class="nav-link br-s">List</a>
+                            <a href="/docs/components/list.html" class="nav-link active br-s">List</a>
                         </li>
                         <li>
-                            <a href="/docs/components/toast.html" class="nav-link active br-s">Toast</a>
+                            <a href="/docs/components/toast.html" class="nav-link br-s">Toast</a>
                         </li>
                     </ul>
                 </div>
+
             </nav>
+
         </aside>
 
         <main class="dp-main">
-            <section id="docs-toast" class="dp-section">
-                <h2>Toast</h2>
-                <p>
-                    The toast is used to show alerts on top of an overlay. The toast
-                    will close itself when the close button is clicked, or after a
-                    timeout — the default is 5 seconds. The toast component is used to
-                    give feedback to users after an action has taken place.
-                </p>
+            <section id="docs-list" class="dp-section">
+                <h2>List</h2>
+                <p>Lists are continuous, vertical indexes of text or images.</p>
+            </section>
+
+            <section id="docs-list-inline" class="dp-section">
+                <h3>Inline List</h3>
 
                 <div class="dp-component br-s">
-                    <div class="toast-container">
-                        <div class="toast success br-s">
-                            <i class="fas fa-check-circle"></i>
-                            success toast<span class="card-cross"><i class="fas fa-times"></i></span>
-                        </div>
-                        <div class="toast info br-s">
-                            <i class="fas fa-info-circle"></i>
-                            info toast<span class="card-cross"><i class="fas fa-times"></i></span>
-                        </div>
-                        <div class="toast error br-s">
-                            <i class="fas fa-times-circle"></i>
-                            error toast<span class="card-cross"><i class="fas fa-times"></i></span>
-                        </div>
-                        <div class="toast warning br-s">
-                            <i class="fas fa-exclamation-triangle"></i>
-                            warning toast<span class="card-cross"><i class="fas fa-times"></i></span>
-                        </div>
-                    </div>
+
+                    <ul class="list-inline">
+                        <li class="list-item">List Item 1</li>
+                        <li class="list-item">List Item 2</li>
+                        <li class="list-item">List Item 3</li>
+                    </ul>
                 </div>
 
                 <div class="code-snippet br-s">
                     <pre>
                         <code class="html">
-    
-&lt;div class="toast success br-s"&gt;
-    &lt;i class="fas fa-check-circle"&gt;&lt;/i&gt;
-    success toast&lt;span class="card-cross"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;/div&gt;
 
-&lt;div class="toast info br-s"&gt;
-    &lt;i class="fas fa-info-circle"&gt;&lt;/i&gt;
-    info toast&lt;span class="card-cross"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;/div&gt;
+&lt;ul class="list-inline"&gt;
 
-&lt;div class="toast error br-s"&gt;
-    &lt;i class="fas fa-times-circle"&gt;&lt;/i&gt;
-    error toast&lt;span class="card-cross"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;/div&gt;
+    &lt;li class="list-item"&gt;List Item 1&lt;/li&gt;
 
-&lt;div class="toast warning br-s"&gt;
-    &lt;i class="fas fa-exclamation-triangle"&gt;&lt;/i&gt;
-    warning toast&lt;span class="card-cross"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/span&gt;
-&lt;/div&gt;
-                            </code>
+    &lt;li class="list-item"&gt;List Item 2&lt;/li&gt;
+
+    &lt;li class="list-item"&gt;List Item 3&lt;/li&gt;
+
+&lt;/ul&gt;
+                        </code>
+                    </pre>
+                </div>
+            </section>
+
+            <section id="docs-list-stacked" class="dp-section">
+                <h3>Stacked List</h3>
+
+                <div class="dp-component br-s">
+
+                    <ul class="list-stacked">
+                        <li class="list-item">List Item 1</li>
+                        <li class="list-item">List Item 2</li>
+                        <li class="list-item">List Item 3</li>
+                    </ul>
+                </div>
+
+                <div class="code-snippet br-s">
+                    <pre>
+                        <code class="html">
+
+&lt;ul class="list-stacked"&gt;
+
+    &lt;li class="list-item"&gt;List Item 1&lt;/li&gt;
+
+    &lt;li class="list-item"&gt;List Item 2&lt;/li&gt;
+
+    &lt;li class="list-item"&gt;List Item 3&lt;/li&gt;
+
+&lt;/ul&gt;
+                        </code>
                     </pre>
                 </div>
             </section>
         </main>
 
         <aside class="dp-right-aside">
+
             <p class="nav-right">ON THIS PAGE</p>
             <nav>
                 <ul>
                     <li>
-                        <a href="#docs-toast" class="nav-link nav-right br-s">Toast</a>
+                        <a href="#docs-list" class="nav-link nav-right br-s">List</a>
+                    </li>
+                    <li>
+                        <a href="#docs-list-inline" class="nav-link nav-right br-s">Inline List</a>
+                    </li>
+                    <li>
+                        <a href="#docs-list-stacked" class="nav-link nav-right br-s">Stacked List</a>
                     </li>
                 </ul>
             </nav>
+
         </aside>
+
     </div>
 </body>
 

@@ -1,0 +1,15 @@
+.list-item {
+    padding: 1rem;
+    background-color: var(--bg-secondary);
+}
+
+.list-inline .list-item {
+    display: inline-block;
+}
+
+.list-stacked {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}

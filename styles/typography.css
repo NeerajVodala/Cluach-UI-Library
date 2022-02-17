@@ -33,5 +33,49 @@ p {
     line-height: 1.6rem;
 }
 
+/* text weight css */
+.text-lighter {
+    font-weight: var(--fw-lighter);
+}
 
+.text-light {
+    font-weight: var(--fw-light);
+}
 
+.text-regular {
+    font-weight: var(--fw-regular);
+}
+
+.text-semibold {
+    font-weight: var(--fw-semibold);
+}
+
+.text-bold {
+    font-weight: var(--fw-bold);
+}
+
+.text-black {
+    font-weight: var(--fw-black);
+}
+
+/* text alignment css */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* colored text */
+.text-span-1 {
+    color: var(--span-1);
+}
+
+.text-span-2 {
+    color: var(--span-2);
+}
