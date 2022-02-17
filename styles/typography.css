@@ -33,5 +33,38 @@ p {
     line-height: 1.6rem;
 }
 
+.lighter-text {
+    font-weight: var(--fw-lighter);
+}
 
+.light-text {
+    font-weight: var(--fw-light);
+}
 
+.regular-text {
+    font-weight: var(--fw-regular);
+}
+
+.semibold-text {
+    font-weight: var(--fw-semibold);
+}
+
+.bold-text {
+    font-weight: var(--fw-bold);
+}
+
+.black-text {
+    font-weight: var(--fw-black);
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}

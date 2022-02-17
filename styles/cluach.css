@@ -119,3 +119,7 @@
     font-size: 0.875rem;
     background-color: var(--bg-secondary);
 }
+
+.align-section {
+    width: 100%;
+}
