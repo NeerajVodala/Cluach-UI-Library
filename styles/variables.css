@@ -17,14 +17,13 @@
   --btn-bg-2: rgba(255, 255, 255, 0.08);
   --span-1: rgba(255, 255, 255, 0.16);
   --span-2: #4FD1C5;
+  --success-color: #9ae6b4;
+  --error-color: #feb2b2;
+  --warning-color: #fbd38d;
+  --info-color: #90cdf4;
   /* badges */
   --badge-green: #32CD32;
   --badge-grey: #808080;
   --badge-red: #ff1919;
   --badge-amber: #FFBF00;
-  /* alerts */
-  --error-color: #3f3742;
-  --success-color: #2e4042;
-  --warning-color: #3e3d3b;
-  --info-color: #2c3c4c;
 }
