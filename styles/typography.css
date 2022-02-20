@@ -79,3 +79,24 @@ p {
 .text-span-2 {
     color: var(--span-2);
 }
+
+/* text size css */
+.text-xs {
+    font-size: 0.625rem;
+}
+
+.text-s {
+    font-size: 0.8rem;
+}
+
+.text-l {
+    font-size: 1.125rem;
+}
+
+.text-xl {
+    font-size: 1.5rem;
+}
+
+.text-xxl {
+    font-size: 2rem;
+}
