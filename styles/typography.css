@@ -80,6 +80,10 @@ p {
     color: var(--span-2);
 }
 
+.text-strike {
+    text-decoration: line-through;
+}
+
 /* text size css */
 .text-xs {
     font-size: 0.625rem;
