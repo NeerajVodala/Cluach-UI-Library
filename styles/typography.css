@@ -84,6 +84,10 @@ p {
     text-decoration: line-through;
 }
 
+.text-underline {
+    text-decoration: underline;
+}
+
 /* text size css */
 .text-xs {
     font-size: 0.625rem;
