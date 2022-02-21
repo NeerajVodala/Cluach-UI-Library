@@ -1,5 +1,5 @@
 # Cluach UI
-cluach is a simple, accessible component library that gives you the building blocks you need to build your web apps.
+### cluach is a simple, accessible component library that gives you the building blocks you need to build your web apps.
 ---
 
 ## Quick Start
