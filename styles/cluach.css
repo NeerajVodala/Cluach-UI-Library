@@ -142,7 +142,13 @@
 
 @media (max-width: 48rem) {
     .dp-left-aside {
-        display: none;
+        position: fixed;
+       background-color: var(--bg-primary);
+        top: 4rem;
+        left: 0;
+        z-index: 1;
+
+        /* display: none onclick menu icon; */
     }
     
     .dp-main {
@@ -150,3 +156,5 @@
         padding: 0 1rem;
     }
 }
+
+
