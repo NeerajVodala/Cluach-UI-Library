@@ -9,10 +9,10 @@ modeSwitch.addEventListener("click", checkMode);
 
 function checkMode() {
     lightMode = localStorage.getItem('lightmode');
-    if (lightMode === "null") {
-        lightModeOn();
-    } else {
+    if (lightMode === "enabled") {
         lightModeOff();
+    } else {
+        lightModeOn();
     }
 }
 
