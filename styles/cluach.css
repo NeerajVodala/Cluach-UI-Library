@@ -123,3 +123,30 @@
 .align-section {
     width: 100%;
 }
+
+@media (max-width: 80rem) {
+    .dp-left-aside {
+        flex-basis: 20%;
+        padding: 0 1rem;
+    }
+    
+    .dp-main {
+        flex-basis: 80%;
+        padding: 0 2rem;
+    }
+    
+    .dp-right-aside {
+       display: none;
+    }
+}
+
+@media (max-width: 48rem) {
+    .dp-left-aside {
+        display: none;
+    }
+    
+    .dp-main {
+        margin: auto;
+        padding: 0 1rem;
+    }
+}
