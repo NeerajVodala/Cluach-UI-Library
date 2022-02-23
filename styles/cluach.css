@@ -167,3 +167,10 @@
         display: none;
     }
 }
+
+@media (max-width: 30rem) {
+    .lp-btn {
+        width: 90%;
+        margin: auto;
+    }
+}
