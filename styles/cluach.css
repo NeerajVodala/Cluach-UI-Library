@@ -124,37 +124,46 @@
     width: 100%;
 }
 
+.menu-icon {
+    display: none;
+}
+
 @media (max-width: 80rem) {
     .dp-left-aside {
         flex-basis: 20%;
-        padding: 0 1rem;
     }
-    
+
     .dp-main {
         flex-basis: 80%;
-        padding: 0 2rem;
     }
-    
+
     .dp-right-aside {
-       display: none;
+        display: none;
     }
 }
 
 @media (max-width: 48rem) {
+    .menu-icon {
+        display: block;
+        margin-right: 1rem;
+    }
+
     .dp-left-aside {
+        display: none;
         position: fixed;
-       background-color: var(--bg-primary);
+        background-color: var(--bg-primary);
         top: 4rem;
         left: 0;
         z-index: 1;
-
-        /* display: none onclick menu icon; */
     }
-    
+
     .dp-main {
-        margin: auto;
+        flex-basis: 100%;
+        margin: 0;
         padding: 0 1rem;
     }
+
+    #header-btn {
+        display: none;
+    }
 }
-
-
