@@ -1,9 +1,11 @@
 /* nav css */
-
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     padding: 0.25rem 2rem;
     color: var(--text-secondary);
     background-color: var(--bg-primary);
@@ -25,10 +27,15 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    margin-left: auto;
 }
 
 #header-btn {
     padding: 0.75rem 1rem;
     font-size: 1rem;
+}
+
+@media (max-width: 48rem) {
+    .header {
+        padding: 0.25rem;
+    }
 }

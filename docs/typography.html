@@ -15,22 +15,23 @@
 
 <body>
     <header class="header">
-        <a href="/index.html">
-            <div class="header-logo">
-                <i class="fas fa-cogs fa-2x"></i>
-                <h2>cluach</h2>
-            </div>
-        </a>
+        <div class="flex-row justify-center align-center">
+            <div class="menu-icon"><i class="fas fa-bars fa-lg"></i></div>
+            <a href="/index.html">
+                <div class="header-logo">
+                    <i class="fas fa-cogs fa-2x"></i>
+                    <h2>cluach</h2>
+                </div>
+            </a>
+        </div>
 
         <div class="header-nav">
             <a href="https://github.com/NeerajVodala/Cluach-UI-Library" target="_blank"><i
                     class="fab fa-github fa-lg"></i></a>
 
-            <a href="#" target="_blank"><i class="fab fa-discord fa-lg"></i></a>
-
             <a href="https://twitter.com/NeerajVodala21" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
 
-            <a href="#"><i class="fas fa-sun fa-lg"></i></a>
+            <div id="mode-switch"><i class="fas fa-sun fa-lg"></i></div>
 
             <a href="#" class="lp-btn lp-secondary-btn br-s" id="header-btn">Feedback</a>
 
@@ -133,7 +134,7 @@
             </section>
 
             <section id="docs-typography-weight" class="dp-section">
-                <h3>Text Weight</h3>
+                <h3>Text Weights</h3>
 
                 <div class="dp-component br-s">
                     <div>
@@ -166,6 +167,40 @@
                 </div>
             </section>
 
+            <section id="docs-typography-size" class="dp-section">
+                <h3>Text Sizes</h3>
+
+                <div class="dp-component br-s">
+                    <div>
+                        <p class="text-xs">Extra small text</p>
+                        <p class="text-s">Small text</p>
+                        <p class="text-m">Regular text</p>
+                        <p class="text-l">Large text</p>
+                        <p class="text-xl">Extra large text</p>
+                        <p class="text-2xl">2xl text</p>
+                    </div>
+                </div>
+
+                <div class="code-snippet br-s">
+                    <pre>
+                        <code class="html">
+
+&lt;p class="text-xs"&gt;Extra small text&lt;/p&gt;
+
+&lt;p class="text-s"&gt;Small text&lt;/p&gt;
+
+&lt;p class="text-m"&gt;Regular text&lt;/p&gt;
+
+&lt;p class="text-l"&gt;Large text&lt;/p&gt;
+
+&lt;p class="text-xl"&gt;Extra large text&lt;/p&gt;
+
+&lt;p class="text-2xl"&gt;2xl text&lt;/p&gt;
+                        </code>
+                    </pre>
+                </div>
+            </section>
+
             <section id="docs-typography-alignment" class="dp-section">
                 <h3>Text Alignment</h3>
 
@@ -191,11 +226,13 @@
                 </div>
             </section>
 
-            <section id="docs-typography-color" class="dp-section">
-                <h3>Text Colors</h3>
+            <section id="docs-typography-variants" class="dp-section">
+                <h3>Text Variants</h3>
 
                 <div class="dp-component br-s">
                     <span>Default Text</span>
+                    <span class="text-underline">Span Text</span>
+                    <span class="text-strike">Span Text</span>
                     <span class="text-span-1">Span Text 1</span>
                     <span class="text-span-2">Span Text 2</span>
                 </div>
@@ -204,9 +241,15 @@
                     <pre>
                         <code class="html">
 
-&lt;span class="text-span-1">Span Text&lt;/span&gt;
+&lt;span&gt;Default Text&lt;/span&gt;
 
-&lt;span class="text-span-2">Span Text&lt;/span&gt;
+&lt;span class="text-underline"&gt;Span Text&lt;/span&gt;
+
+&lt;span class="text-strike"&gt;Span Text&lt;/span&gt;
+
+&lt;span class="text-span-1"&gt;Span Text 1&lt;/span&gt;
+
+&lt;span class="text-span-2"&gt;Span Text 2&lt;/span&gt;
                         </code>
                     </pre>
                 </div>
@@ -225,13 +268,16 @@
                         <a href="#docs-typography-heading" class="nav-link nav-right br-s">Headings</a>
                     </li>
                     <li>
-                        <a href="#docs-typography-weight" class="nav-link nav-right br-s">Text Weight</a>
+                        <a href="#docs-typography-weight" class="nav-link nav-right br-s">Text Weights</a>
+                    </li>
+                    <li>
+                        <a href="#docs-typography-size" class="nav-link nav-right br-s">Text Sizes</a>
                     </li>
                     <li>
                         <a href="#docs-typography-alignment" class="nav-link nav-right br-s">Text Alignment</a>
                     </li>
                     <li>
-                        <a href="#docs-typography-color" class="nav-link nav-right br-s">Text Color</a>
+                        <a href="#docs-typography-variants" class="nav-link nav-right br-s">Text Variants</a>
                     </li>
                 </ul>
             </nav>
@@ -239,6 +285,8 @@
         </aside>
 
     </div>
+    <script src="/JS/mode-toggle.js"></script>
+    <script src="/JS/sidebar.js"></script>
 </body>
 
 </html>
