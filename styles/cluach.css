@@ -120,6 +120,11 @@
     background-color: var(--bg-secondary);
 }
 
+code {
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
 .align-section {
     width: 100%;
 }
@@ -169,8 +174,32 @@
 }
 
 @media (max-width: 30rem) {
+    :root {
+        font-size: 14px;
+    }
+
+    .lp-btn-section {
+        width: 100%;
+    }
+
     .lp-btn {
         width: 90%;
         margin: auto;
+    }
+
+    .lp-heading {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .lp-description {
+        font-size: 1.25rem;
+        line-height: 1.6rem;
+        max-width: 90%;
+    }
+
+    .lp-container {
+        gap: 1.5rem;
+        margin: 4rem auto;
     }
 }
