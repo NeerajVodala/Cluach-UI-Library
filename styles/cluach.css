@@ -147,6 +147,11 @@ code {
     display: none;
 }
 
+.grid-child-demo {
+    background-color: var(--bg-secondary);
+    padding: 1rem;
+}
+
 @media (max-width: 80rem) {
     .dp-left-aside {
         flex-basis: 20%;
