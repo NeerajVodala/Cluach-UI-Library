@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Navigation - Cluach UI</title>
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/cluach.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo-section">
+            <div class="menu-icon"><i class="fas fa-bars fa-lg"></i></div>
+            <a href="/index.html">
+                <div class="header-logo">
+                    <i class="fas fa-cogs fa-2x"></i>
+                    <h2>cluach</h2>
+                </div>
+            </a>
+        </div>
+
+        <div class="header-nav">
+            <a href="https://github.com/NeerajVodala/Cluach-UI-Library" target="_blank"><i
+                    class="fab fa-github fa-lg"></i></a>
+
+            <a href="https://twitter.com/NeerajVodala21" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+
+            <div id="mode-switch"><i class="fas fa-sun fa-lg"></i></div>
+
+            <a href="#" class="lp-btn lp-secondary-btn br-s" id="header-btn">Feedback</a>
+
+        </div>
+    </header>
+
+    <!-- dp - docs page -->
+    <div class="dp">
+
+        <aside class="dp-left-aside">
+
+            <nav class="nav-left">
+
+                <div>
+                    <h4 class="nav-heading">Getting Started</h4>
+                    <ul>
+                        <li>
+                            <a href="/docs/getting-started.html" class="nav-link br-s">Installation</a>
+                        </li>
+                        <li>
+                            <a href="/docs/typography.html" class="nav-link br-s">Typography</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="nav-heading">Components</h4>
+                    <ul>
+                        <li>
+                            <a href="/docs/components/alert.html" class="nav-link br-s">Alert</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/avatar.html" class="nav-link br-s">Avatar</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/badge.html" class="nav-link br-s">Badge</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/button.html" class="nav-link br-s">Button</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/card.html" class="nav-link br-s">Card</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/image.html" class="nav-link br-s">Image</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/input.html" class="nav-link br-s">Input</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/list.html" class="nav-link br-s">List</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/navigation.html" class="nav-link active br-s">Navigation</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/toast.html" class="nav-link br-s">Toast</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </aside>
+
+        <main class="dp-main">
+
+            <section id="docs-nav" class="dp-section">
+
+                <h2>Navigation</h2>
+                <p>A navigation bar is a user interface element within a webpage that contains links to other sections
+                    of the website.</p>
+
+            </section>
+
+            <section id="docs-navbar" class="dp-section">
+                <h3>Navigation Bar (Responsive)</h3>
+                <div class="dp-component br-s">
+
+                    <header class="header header-demo">
+                        <div class="header-logo-section">
+                            <div class="menu-icon"><i class="fas fa-bars fa-lg"></i></div>
+                            <a href="#">
+                                <div class="header-logo">
+                                    <h2>Logo</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="header-nav">
+                            <a href="#"><i class="fab fa-github fa-lg"></i></a>
+
+                            <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+
+                            <div id="mode-switch"><i class="fas fa-sun fa-lg"></i></div>
+
+                            <a href="#" class="lp-btn lp-secondary-btn br-s" id="header-btn">Nav Button</a>
+                        </div>
+                    </header>
+
+                    <header class="header header-demo header-res">
+                        <div class="header-logo-section">
+                            <div class="menu-icon menu-icon-demo"><i class="fas fa-bars fa-lg"></i></div>
+                            <a href="#">
+                                <div class="header-logo">
+                                    <h2>Logo</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="header-nav">
+                            <a href="#"><i class="fab fa-github fa-lg"></i></a>
+
+                            <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+
+                            <div id="mode-switch"><i class="fas fa-sun fa-lg"></i></div>
+
+                            <a href="#" class="lp-btn lp-secondary-btn br-s" id="header-btn-demo">Feedback</a>
+                        </div>
+                    </header>
+
+                </div>
+            </section>
+
+            <div class="code-snippet br-s">
+                <pre>
+                        <code class="html">
+&lt;header class="header"&gt;
+    &lt;div class="header-logo-section"&gt;
+
+        &lt;div class="menu-icon"&gt;&lt;i class="fas fa-bars fa-lg"&gt;&lt;/i&gt;&lt;/div&gt;
+        &lt;a href="#"&gt;
+            &lt;div class="header-logo"&gt;
+                &lt;Put your icon here/&gt;
+                &lt;h2&gt;Logo&lt;/h2&gt;
+            &lt;/div&gt;
+        &lt;/a&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class="header-nav"&gt;
+        &lt;a href="#" target="_blank"&gt;&lt;i class="fab fa-github fa-lg"&gt;&lt;/i&gt;&lt;/a&gt;
+
+        &lt;a href="#" target="_blank"&gt;&lt;i class="fab fa-twitter fa-lg"&gt;&lt;/i&gt;&lt;/a&gt;
+
+        &lt;div id="mode-switch"&gt;&lt;i class="fas fa-sun fa-lg"&gt;&lt;/i&gt;&lt;/div&gt;
+
+        &lt;a href="#" class="lp-btn lp-secondary-btn br-s" id="header-btn"&gt;Nav Button&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/header&gt; 
+    
+                        </code>
+                    </pre>
+            </div>
+
+        </main>
+
+        <aside class="dp-right-aside">
+
+            <p class="nav-right">ON THIS PAGE</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#docs-nav" class="nav-link nav-right br-s">Navigation</a>
+                    </li>
+                    <li>
+                        <a href="#docs-navbar" class="nav-link nav-right br-s">Navigation Bar</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </aside>
+
+    </div>
+    <script src="/JS/mode-toggle.js"></script>
+    <script src="/JS/sidebar.js"></script>
+</body>
+
+</html>
