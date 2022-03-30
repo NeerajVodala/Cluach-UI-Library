@@ -1,7 +1,7 @@
 /* button sizes */
 .btn {
     font-weight: var(--fw-semibold);
-    padding: 1em 2em;
+    padding: 0.8em 1.8em;
 }
 
 .btn-s {
@@ -45,6 +45,7 @@
 
 .ghost:hover {
     background-color: var(--btn-bg-2);
+    outline: 2px solid var(--btn-bg-2);
 }
 
 .btn-link {
