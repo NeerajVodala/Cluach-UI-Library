@@ -129,7 +129,21 @@ code {
     width: 100%;
 }
 
-.menu-icon {
+.header-res {
+    max-width: 30rem;
+}
+
+.header-demo {
+    border: 1px solid var(--span-2);
+    z-index: -1;
+}
+
+.menu-icon-demo {
+    display: block;
+    margin-right: 1rem;
+}
+
+#header-btn-demo {
     display: none;
 }
 
@@ -148,11 +162,6 @@ code {
 }
 
 @media (max-width: 48rem) {
-    .menu-icon {
-        display: block;
-        margin-right: 1rem;
-    }
-
     .dp-left-aside {
         display: none;
         position: fixed;
@@ -166,10 +175,6 @@ code {
         flex-basis: 100%;
         margin: 0;
         padding: 0 1rem;
-    }
-
-    #header-btn {
-        display: none;
     }
 }
 
