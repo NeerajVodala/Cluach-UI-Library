@@ -1,0 +1,9 @@
+.modal {
+    background-color: var(--bg-secondary);
+    padding: 1rem;
+    max-width: 25rem;
+}
+
+.modal-text {
+    margin-bottom: 1rem;
+}

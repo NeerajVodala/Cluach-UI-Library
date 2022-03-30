@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Neeraj Vodala" />
+    <meta name="author" content="Neeraj Vodala">
 
-    <title>Navigation - Cluach UI</title>
+    <title>Grid - Cluach UI</title>
 
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/cluach.css">
@@ -16,7 +16,7 @@
 
 <body>
     <header class="header">
-        <div class="header-logo-section">
+        <div class="flex-row justify-center align-center">
             <div class="menu-icon"><i class="fas fa-bars fa-lg"></i></div>
             <a href="/index.html">
                 <div class="header-logo">
@@ -39,7 +39,6 @@
         </div>
     </header>
 
-    <!-- dp - docs page -->
     <div class="dp">
 
         <aside class="dp-left-aside">
@@ -77,6 +76,9 @@
                             <a href="/docs/components/card.html" class="nav-link br-s">Card</a>
                         </li>
                         <li>
+                            <a href="/docs/components/grid.html" class="nav-link active br-s">Grid</a>
+                        </li>
+                        <li>
                             <a href="/docs/components/image.html" class="nav-link br-s">Image</a>
                         </li>
                         <li>
@@ -86,7 +88,10 @@
                             <a href="/docs/components/list.html" class="nav-link br-s">List</a>
                         </li>
                         <li>
-                            <a href="/docs/components/navigation.html" class="nav-link active br-s">Navigation</a>
+                            <a href="/docs/components/modal.html" class="nav-link br-s">Modal</a>
+                        </li>
+                        <li>
+                            <a href="/docs/components/navbar.html" class="nav-link br-s">Navbar</a>
                         </li>
                         <li>
                             <a href="/docs/components/toast.html" class="nav-link br-s">Toast</a>
@@ -99,95 +104,100 @@
         </aside>
 
         <main class="dp-main">
-
-            <section id="docs-nav" class="dp-section">
-
-                <h2>Navigation</h2>
-                <p>A navigation bar is a user interface element within a webpage that contains links to other sections
-                    of the website.</p>
-
+            <section id="docs-grid" class="dp-section">
+                <h2>Grid</h2>
+                <p>A grid is a set of intersecting horizontal and vertical lines defining columns and rows. Elements can be placed onto the grid within these column and row lines.</p>
             </section>
 
-            <section id="docs-navbar" class="dp-section">
-                <h3>Navigation Bar (Responsive)</h3>
+            <section id="docs-grid-2" class="dp-section">
+                <h3>2-Column Grid</h3>
+
                 <div class="dp-component br-s">
 
-                    <header class="header header-demo">
-                        <div class="header-logo-section">
-                            <div class="menu-icon"><i class="fas fa-bars fa-lg"></i></div>
-                            <a href="#">
-                                <div class="header-logo">
-                                    <h2>Logo</h2>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="grid col-2 grid-gap-05">
+                        <div class="grid-child-demo text-center">Column 1</div>
+                        <div class="grid-child-demo text-center">Column 2</div>
+                    </div>
+                </div>
 
-                        <div class="header-nav">
-                            <a href="#"><i class="fab fa-github fa-lg"></i></a>
+                <div class="code-snippet br-s">
+                    <pre>
+                        <code class="html">
 
-                            <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+&lt;div class="grid col-2 grid-gap-05"&gt;
 
-                            <div id="mode-switch"><i class="fas fa-sun fa-lg"></i></div>
+    &lt;div&gt;Column 1&lt;/div&gt;
 
-                            <a href="#" class="lp-btn lp-secondary-btn br-s" id="header-btn">Nav Button</a>
-                        </div>
-                    </header>
-
-                    <header class="header header-demo header-res">
-                        <div class="header-logo-section">
-                            <div class="menu-icon menu-icon-demo"><i class="fas fa-bars fa-lg"></i></div>
-                            <a href="#">
-                                <div class="header-logo">
-                                    <h2>Logo</h2>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="header-nav">
-                            <a href="#"><i class="fab fa-github fa-lg"></i></a>
-
-                            <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-
-                            <div id="mode-switch"><i class="fas fa-sun fa-lg"></i></div>
-
-                            <a href="#" class="lp-btn lp-secondary-btn br-s" id="header-btn-demo">Feedback</a>
-                        </div>
-                    </header>
-
+    &lt;div&gt;Column 2&lt;/div&gt;
+    
+&lt;/div&gt;
+                        </code>
+                    </pre>
                 </div>
             </section>
 
-            <div class="code-snippet br-s">
-                <pre>
+            <section id="docs-grid-3" class="dp-section">
+                <h3>3-Column Grid</h3>
+
+                <div class="dp-component br-s">
+
+                    <div class="grid col-3 grid-gap-05">
+                        <div class="grid-child-demo text-center">Column 1</div>
+                        <div class="grid-child-demo text-center">Column 2</div>
+                        <div class="grid-child-demo text-center">Column 3</div>
+                    </div>
+                </div>
+
+                <div class="code-snippet br-s">
+                    <pre>
                         <code class="html">
-&lt;header class="header"&gt;
-    &lt;div class="header-logo-section"&gt;
 
-        &lt;div class="menu-icon"&gt;&lt;i class="fas fa-bars fa-lg"&gt;&lt;/i&gt;&lt;/div&gt;
-        &lt;a href="#"&gt;
-            &lt;div class="header-logo"&gt;
-                &lt;Put your icon here/&gt;
-                &lt;h2&gt;Logo&lt;/h2&gt;
-            &lt;/div&gt;
-        &lt;/a&gt;
+&lt;div class="grid col-3 grid-gap-05"&gt;
 
-    &lt;/div&gt;
+    &lt;div&gt;Column 1&lt;/div&gt;
 
-    &lt;div class="header-nav"&gt;
-        &lt;a href="#" target="_blank"&gt;&lt;i class="fab fa-github fa-lg"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;div&gt;Column 2&lt;/div&gt;
 
-        &lt;a href="#" target="_blank"&gt;&lt;i class="fab fa-twitter fa-lg"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;div&gt;Column 3&lt;/div&gt;
 
-        &lt;div id="mode-switch"&gt;&lt;i class="fas fa-sun fa-lg"&gt;&lt;/i&gt;&lt;/div&gt;
-
-        &lt;a href="#" class="lp-btn lp-secondary-btn br-s" id="header-btn"&gt;Nav Button&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/header&gt; 
-    
+&lt;/div&gt;
                         </code>
                     </pre>
-            </div>
+                </div>
+            </section>
 
+            <section id="docs-grid-4" class="dp-section">
+                <h3>4-Column Grid</h3>
+
+                <div class="dp-component br-s">
+
+                    <div class="grid col-4 grid-gap-05">
+                        <div class="grid-child-demo text-center">Column 1</div>
+                        <div class="grid-child-demo text-center">Column 2</div>
+                        <div class="grid-child-demo text-center">Column 3</div>
+                        <div class="grid-child-demo text-center">Column 4</div>
+                    </div>
+                </div>
+
+                <div class="code-snippet br-s">
+                    <pre>
+                        <code class="html">
+
+&lt;div class="grid col-4 grid-gap-05"&gt;
+
+    &lt;div&gt;Column 1&lt;/div&gt;
+
+    &lt;div&gt;Column 2&lt;/div&gt;
+
+    &lt;div&gt;Column 3&lt;/div&gt;
+
+    &lt;div&gt;Column 4&lt;/div&gt;
+
+&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+            </section>
         </main>
 
         <aside class="dp-right-aside">
@@ -196,10 +206,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#docs-nav" class="nav-link nav-right br-s">Navigation</a>
+                        <a href="#docs-grid" class="nav-link nav-right br-s">Grid</a>
                     </li>
                     <li>
-                        <a href="#docs-navbar" class="nav-link nav-right br-s">Navigation Bar</a>
+                        <a href="#docs-grid-2" class="nav-link nav-right br-s">2-Column Grid</a>
+                    </li>
+                    <li>
+                        <a href="#docs-grid-3" class="nav-link nav-right br-s">3-Column Grid</a>
+                    </li>
+                    <li>
+                        <a href="#docs-grid-4" class="nav-link nav-right br-s">4-Column Grid</a>
                     </li>
                 </ul>
             </nav>
