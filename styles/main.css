@@ -21,6 +21,8 @@
 @import "/styles/components/input.css";
 @import "/styles/components/list.css";
 @import "/styles/components/modal.css";
+@import "/styles/components/rating.css";
+@import "/styles/components/slider.css";
 @import "/styles/components/toast.css";
 
 /* project initials */
