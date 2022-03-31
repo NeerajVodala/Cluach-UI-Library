@@ -64,6 +64,11 @@
 .dp-left-aside {
     flex-basis: 20%;
     padding: 0 1rem;
+    color: var(--text-primary);
+}
+
+.dp-left-aside li {
+    color: var(--text-primary);
 }
 
 .dp-main {
@@ -81,7 +86,6 @@
     display: block;
     margin: 0.25rem;
     padding: 0.75rem 1rem;
-    color: var(--text-primary);
 }
 
 .nav-link:hover {
