@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Neeraj Vodala">
 
-    <title>Rating - Cluach UI</title>
+    <title>Slider - Cluach UI</title>
 
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/cluach.css">
@@ -94,10 +94,10 @@
                             <a href="/docs/components/navbar.html" class="nav-link br-s">Navbar</a>
                         </li>
                         <li>
-                            <a href="/docs/components/rating.html" class="nav-link active br-s">Rating</a>
+                            <a href="/docs/components/rating.html" class="nav-link br-s">Rating</a>
                         </li>
                         <li>
-                            <a href="/docs/components/slider.html" class="nav-link br-s">Slider</a>
+                            <a href="/docs/components/slider.html" class="nav-link active br-s">Slider</a>
                         </li>
                         <li>
                             <a href="/docs/components/toast.html" class="nav-link br-s">Toast</a>
@@ -110,47 +110,19 @@
         </aside>
 
         <main class="dp-main">
-            <section id="docs-rating" class="dp-section">
-                <h2>Rating</h2>
-                <p>Ratings provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own.</p>
+            <section id="docs-slider" class="dp-section">
+                <h2>Slider</h2>
+                <p>A horizontal bar that allows you to set a numeric value within a defined range by dragging a handle with the mouse.</p>
 
                 <div class="dp-component br-s">
-                    <div class="star-rating">
-                        <input type="radio" name="rating" id="5-star" value="5">
-                        <label for="5-star">&#9733;</label>
-                        <input type="radio" name="rating" id="4-star" value="4">
-                        <label for="4-star">&#9733;</label>
-                        <input type="radio" name="rating" id="3-star" value="3">
-                        <label for="3-star">&#9733;</label>
-                        <input type="radio" name="rating" id="2-star" value="2">
-                        <label for="2-star">&#9733;</label>
-                        <input type="radio" name="rating" id="1-star" value="1">
-                        <label for="1-star">&#9733;</label>
-                    </div>
+                    <input type="range" min="0" max="10" step="1" class="slider" />
                 </div>
 
                 <div class="code-snippet br-s">
                     <pre>
                         <code class="html">
 
-&lt;div class="star-rating"&gt;
-
-    &lt;input type="radio" name="rating" id="5-star" value="5"&gt;
-    &lt;label for="5-star"&gt;&#9733;&lt;/label&gt;
-
-    &lt;input type="radio" name="rating" id="4-star" value="4"&gt;
-    &lt;label for="4-star"&gt;&#9733;&lt;/label&gt;
-
-    &lt;input type="radio" name="rating" id="3-star" value="3"&gt;
-    &lt;label for="3-star"&gt;&#9733;&lt;/label&gt;
-
-    &lt;input type="radio" name="rating" id="2-star" value="2"&gt;
-    &lt;label for="2-star"&gt;&#9733;&lt;/label&gt;
-
-    &lt;input type="radio" name="rating" id="1-star" value="1"&gt;
-    &lt;label for="1-star"&gt;&#9733;&lt;/label&gt;
-
-&lt;/div&gt;
+&lt;input type="range" min="0" max="10" step="1" class="slider" /&gt;
                         </code>
                     </pre>
                 </div>
@@ -163,7 +135,7 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#docs-rating" class="nav-link nav-right br-s">Rating</a>
+                        <a href="#docs-slider" class="nav-link nav-right br-s">Slider</a>
                     </li>
                 </ul>
             </nav>
