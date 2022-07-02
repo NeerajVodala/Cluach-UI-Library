@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Neeraj Vodala">
 
-    <title>Image - Cluach UI</title>
+    <title>Modal - Cluach UI</title>
 
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/cluach.css">
@@ -39,7 +39,6 @@
         </div>
     </header>
 
-    <!-- dp - docs page -->
     <div class="dp">
 
         <aside class="dp-left-aside">
@@ -80,7 +79,7 @@
                             <a href="/docs/components/grid.html" class="nav-link br-s">Grid</a>
                         </li>
                         <li>
-                            <a href="/docs/components/image.html" class="nav-link active br-s">Image</a>
+                            <a href="/docs/components/image.html" class="nav-link br-s">Image</a>
                         </li>
                         <li>
                             <a href="/docs/components/input.html" class="nav-link br-s">Input</a>
@@ -89,7 +88,7 @@
                             <a href="/docs/components/list.html" class="nav-link br-s">List</a>
                         </li>
                         <li>
-                            <a href="/docs/components/modal.html" class="nav-link br-s">Modal</a>
+                            <a href="/docs/components/modal.html" class="nav-link active br-s">Modal</a>
                         </li>
                         <li>
                             <a href="/docs/components/navbar.html" class="nav-link br-s">Navbar</a>
@@ -111,52 +110,45 @@
         </aside>
 
         <main class="dp-main">
-
-            <section id="docs-image" class="dp-section">
-
-                <h2>Image</h2>
-                <p>The Image component is used to display images.</p>
-
-            </section>
-
-            <section id="docs-image-responsive" class="dp-section">
-
-                <h3>Responsive Image</h3>
+            <section id="docs-modal" class="dp-section">
+                <h2>Modal</h2>
+                <p>A modal is a message box that is displayed on top of your screen. Modals put an overlay on the
+                    screen; therefore, they take visual precedence over all the other elements.</p>
 
                 <div class="dp-component br-s">
 
-                    <img src="/assets/images/img-2.jpg" alt="responsive image" class="img-responsive">
-
+                    <div class="modal shadow-1 br-s">
+                        <div class="flex-row align-center justify-between">
+                            <h3 class="modal-heading">Modal Header</h3><i class="fas fa-times fa-lg"></i>
+                        </div>
+                        <p class="modal-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <div class="flex-row align-center justify-end gp-m">
+                            <button class="btn solid btn-m br-s">close</button>
+                            <button class="btn ghost btn-m br-s">secondary action</button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="code-snippet br-s">
                     <pre>
                         <code class="html">
 
-&lt;img src="/image.jpg" alt="responsive image" class="img-responsive"&gt;
-                        </code>
-                    </pre>
-                </div>
+&lt;div class="modal shadow-1 br-s"&gt;
 
-            </section>
+    &lt;div class="flex-row align-center justify-between"&gt;
+        &lt;h3 class="modal-heading"&gt;Modal Header&lt;/h3&gt;
+        &lt;i class="fas fa-times fa-lg"&gt;&lt;/i&gt;
+    &lt;/div&gt;
 
-            <section id="docs-image-variants" class="dp-section">
+    &lt;p class="modal-text"&gt;modal text.&lt;/p&gt;
 
-                <h3>Variants of an image</h3>
+    &lt;div class="flex-row align-center justify-end gp-m"&gt;
+        &lt;button class="btn solid btn-m br-s"&gt;close&lt;/button&gt;
+        &lt;button class="btn ghost btn-m br-s"&gt;secondary action&lt;/button&gt;
+    &lt;/div&gt;
 
-                <div class="dp-component br-s">
-                    <img src="/assets/images/img-2.jpg" alt="responsive image" class="img-size img-variant br-s">
-
-                    <img src="/assets/images/img-2.jpg" alt="responsive image" class="img-size img-variant br-full">
-                </div>
-
-                <div class="code-snippet br-s">
-                    <pre>
-                        <code class="html">
-    
-&lt;img src="/image.jpg" alt="squared image" class="img-variant br-s"&gt;
-
-&lt;img src="/image.jpg" alt="circular image" class="img-variant br-full">
+&lt;/div&gt;
                         </code>
                     </pre>
                 </div>
@@ -169,13 +161,7 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#docs-image" class="nav-link nav-right br-s">Image</a>
-                    </li>
-                    <li>
-                        <a href="#docs-image-responsive" class="nav-link nav-right br-s">Responsive Image</a>
-                    </li>
-                    <li>
-                        <a href="#docs-image-variants" class="nav-link nav-right br-s">Variants of an image</a>
+                        <a href="#docs-modal" class="nav-link nav-right br-s">Modal</a>
                     </li>
                 </ul>
             </nav>

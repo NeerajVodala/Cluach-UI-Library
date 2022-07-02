@@ -64,6 +64,11 @@
 .dp-left-aside {
     flex-basis: 20%;
     padding: 0 1rem;
+    color: var(--text-primary);
+}
+
+.dp-left-aside li {
+    color: var(--text-primary);
 }
 
 .dp-main {
@@ -120,12 +125,36 @@
     background-color: var(--bg-secondary);
 }
 
+code {
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
 .align-section {
     width: 100%;
 }
 
-.menu-icon {
+.header-res {
+    max-width: 30rem;
+}
+
+.header-demo {
+    border: 1px solid var(--span-2);
+    z-index: -1;
+}
+
+.menu-icon-demo {
+    display: block;
+    margin-right: 1rem;
+}
+
+#header-btn-demo {
     display: none;
+}
+
+.grid-child-demo {
+    background-color: var(--bg-secondary);
+    padding: 1rem;
 }
 
 @media (max-width: 80rem) {
@@ -143,18 +172,16 @@
 }
 
 @media (max-width: 48rem) {
-    .menu-icon {
-        display: block;
-        margin-right: 1rem;
-    }
-
     .dp-left-aside {
         display: none;
         position: fixed;
         background-color: var(--bg-primary);
-        top: 4rem;
+        top: 5rem;
         left: 0;
+        bottom: 0;
         z-index: 1;
+        width: 50vw;
+        overflow-y: auto;
     }
 
     .dp-main {
@@ -162,15 +189,35 @@
         margin: 0;
         padding: 0 1rem;
     }
-
-    #header-btn {
-        display: none;
-    }
 }
 
 @media (max-width: 30rem) {
+    :root {
+        font-size: 14px;
+    }
+
+    .lp-btn-section {
+        width: 100%;
+    }
+
     .lp-btn {
         width: 90%;
         margin: auto;
+    }
+
+    .lp-heading {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .lp-description {
+        font-size: 1.25rem;
+        line-height: 1.6rem;
+        max-width: 90%;
+    }
+
+    .lp-container {
+        gap: 1.5rem;
+        margin: 4rem auto;
     }
 }

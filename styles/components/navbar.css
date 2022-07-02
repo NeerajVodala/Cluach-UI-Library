@@ -1,6 +1,7 @@
 /* nav css */
 .header {
     display: flex;
+    flex-grow: 1;
     justify-content: space-between;
     align-items: center;
     position: sticky;
@@ -9,6 +10,17 @@
     padding: 0.25rem 2rem;
     color: var(--text-secondary);
     background-color: var(--bg-primary);
+}
+
+.header-logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu-icon {
+    display: none;
 }
 
 .header-logo {
@@ -27,6 +39,7 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    color: var(--text-secondary);
 }
 
 #header-btn {
@@ -36,6 +49,15 @@
 
 @media (max-width: 48rem) {
     .header {
-        padding: 0.25rem;
+        padding: 1rem;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-right: 1rem;
+    }
+
+    #header-btn {
+        display: none;
     }
 }

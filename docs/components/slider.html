@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Neeraj Vodala">
 
-    <title>Image - Cluach UI</title>
+    <title>Slider - Cluach UI</title>
 
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/cluach.css">
@@ -39,7 +39,6 @@
         </div>
     </header>
 
-    <!-- dp - docs page -->
     <div class="dp">
 
         <aside class="dp-left-aside">
@@ -80,7 +79,7 @@
                             <a href="/docs/components/grid.html" class="nav-link br-s">Grid</a>
                         </li>
                         <li>
-                            <a href="/docs/components/image.html" class="nav-link active br-s">Image</a>
+                            <a href="/docs/components/image.html" class="nav-link br-s">Image</a>
                         </li>
                         <li>
                             <a href="/docs/components/input.html" class="nav-link br-s">Input</a>
@@ -98,7 +97,7 @@
                             <a href="/docs/components/rating.html" class="nav-link br-s">Rating</a>
                         </li>
                         <li>
-                            <a href="/docs/components/slider.html" class="nav-link br-s">Slider</a>
+                            <a href="/docs/components/slider.html" class="nav-link active br-s">Slider</a>
                         </li>
                         <li>
                             <a href="/docs/components/toast.html" class="nav-link br-s">Toast</a>
@@ -111,52 +110,19 @@
         </aside>
 
         <main class="dp-main">
-
-            <section id="docs-image" class="dp-section">
-
-                <h2>Image</h2>
-                <p>The Image component is used to display images.</p>
-
-            </section>
-
-            <section id="docs-image-responsive" class="dp-section">
-
-                <h3>Responsive Image</h3>
+            <section id="docs-slider" class="dp-section">
+                <h2>Slider</h2>
+                <p>A horizontal bar that allows you to set a numeric value within a defined range by dragging a handle with the mouse.</p>
 
                 <div class="dp-component br-s">
-
-                    <img src="/assets/images/img-2.jpg" alt="responsive image" class="img-responsive">
-
+                    <input type="range" min="0" max="10" step="1" class="slider" />
                 </div>
 
                 <div class="code-snippet br-s">
                     <pre>
                         <code class="html">
 
-&lt;img src="/image.jpg" alt="responsive image" class="img-responsive"&gt;
-                        </code>
-                    </pre>
-                </div>
-
-            </section>
-
-            <section id="docs-image-variants" class="dp-section">
-
-                <h3>Variants of an image</h3>
-
-                <div class="dp-component br-s">
-                    <img src="/assets/images/img-2.jpg" alt="responsive image" class="img-size img-variant br-s">
-
-                    <img src="/assets/images/img-2.jpg" alt="responsive image" class="img-size img-variant br-full">
-                </div>
-
-                <div class="code-snippet br-s">
-                    <pre>
-                        <code class="html">
-    
-&lt;img src="/image.jpg" alt="squared image" class="img-variant br-s"&gt;
-
-&lt;img src="/image.jpg" alt="circular image" class="img-variant br-full">
+&lt;input type="range" min="0" max="10" step="1" class="slider" /&gt;
                         </code>
                     </pre>
                 </div>
@@ -169,13 +135,7 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#docs-image" class="nav-link nav-right br-s">Image</a>
-                    </li>
-                    <li>
-                        <a href="#docs-image-responsive" class="nav-link nav-right br-s">Responsive Image</a>
-                    </li>
-                    <li>
-                        <a href="#docs-image-variants" class="nav-link nav-right br-s">Variants of an image</a>
+                        <a href="#docs-slider" class="nav-link nav-right br-s">Slider</a>
                     </li>
                 </ul>
             </nav>
